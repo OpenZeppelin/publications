@@ -2,7 +2,7 @@
 
 This proof of concept (POC) is a companion to our paper "The Last Challenge Attack: Exploiting the vulnerable Fiat-Shamir transform of a KZG-based SNARK".
 
-The POC can forge a proof for an arbitrary public input chosen by the prover. 
+The POC can be used to forge a proof for an arbitrary public input chosen by the prover. 
 By default, the public input is set to be the hash of the string `"RANDOM_INPUT_SELECTED_BY_THE_PROVER"`.
 The public input can be modified, in which case other proofs elements also have to be changed manually. 
 Which elements should be changed, as well as how to change them, is explained by comments directly in the code. 
