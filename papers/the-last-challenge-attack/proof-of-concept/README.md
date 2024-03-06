@@ -1,6 +1,6 @@
 # Last Challenge Attack Proof Of Concept
 
-This proof of concept (POC) is a companion to our paper "The Last Challenge Attack: Exploiting the vulnerable Fiat-Shamir transform of a KZG-based SNARK".
+This proof of concept (POC) is a companion to our paper [The Last Challenge Attack: Exploiting the vulnerable Fiat-Shamir transform of a KZG-based SNARK](https://eprint.iacr.org/2024/398).
 
 The POC can be used to forge a proof for an arbitrary public input chosen by the prover. 
 By default, the public input is set to be the hash of the string `"RANDOM_INPUT_SELECTED_BY_THE_PROVER"`.
